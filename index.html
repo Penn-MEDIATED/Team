@@ -132,12 +132,16 @@
     box-shadow: 0 4px 16px rgba(1,31,91,0.12);
     border-color: var(--blue-card-border);
   }
+  .person-card:hover:not(.alumna) {
+    border-top-color: var(--gold);
+  }
   .person-card.alumna {
     background: #f7f7f7;
     border-top-color: #9a9a9a;
   }
   .person-card.alumna:hover {
     box-shadow: 0 4px 16px rgba(125,99,0,0.15);
+    border-top-color: var(--blue-card-border);
   }
   .person-card img {
     width: 108px;
