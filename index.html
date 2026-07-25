@@ -144,8 +144,8 @@
     border-top-color: var(--blue-card-border);
   }
   .person-card img {
-    width: 108px;
-    height: 108px;
+    width: 176px;
+    height: 176px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 12px;
@@ -155,6 +155,20 @@
   }
   .person-card:hover img {
     filter: grayscale(0%);
+  }
+  .person-photo-placeholder {
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    background: var(--blue-card);
+    color: var(--navy);
+    font-family: var(--font-serif);
+    font-weight: 700;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .person-card h4 {
     font-family: var(--font-serif);
@@ -228,18 +242,19 @@
             <p class="role">Imasogie Professor in Law and Technology; Co-Director, Penn Center on Media, Technology &amp; Democracy</p>
             <span class="visit">Website →</span>
           </a>
-          <div class="person-card">
+          <a class="person-card" href="https://www.linkedin.com/in/alexcengler/" target="_blank" rel="noopener">
             <img src="Photos/Engler color.jpg" alt="Alex Engler">
             <h4>Alex Engler</h4>
             <p class="role">Executive Director</p>
-          </div>
+            <span class="visit">Website →</span>
+          </a>
           <div class="person-card">
             <img src="Photos/Iyer color.jpg" alt="Prithvi Iyer">
             <h4>Prithvi Iyer</h4>
             <p class="role">Communications and Research Manager</p>
           </div>
           <div class="person-card">
-            <img src="Photos/Frisbie color.jpg" alt="Alexis Frisbie" style="object-position: top;">
+            <img src="Photos/Frisbie color.jpg" alt="Alexis Frisbie" style="object-position: center 15%;">
             <h4>Alexis Frisbie</h4>
             <p class="role">Engagement and Policy Manager</p>
           </div>
@@ -291,9 +306,9 @@
         <div class="panel">
         <div class="grid">
           <a class="person-card" href="https://www.asc.upenn.edu/people/faculty/amy-gutmann-phd" target="_blank" rel="noopener">
-            <img src="Photos/gutmann color.jpg" alt="Amy Gutmann">
+            <img src="Photos/gutmann color.jpeg" alt="Amy Gutmann" style="object-position: top;">
             <h4>Amy Gutmann</h4>
-            <p class="role">Faculty Advisor; Christopher H. Browne Distinguished Professor of Political Science, School of Arts and Sciences; Professor of Communication, Annenberg School for Communication; President Emerita, University of Pennsylvania</p>
+            <p class="role">Christopher H. Browne Distinguished Professor of Political Science; Professor of Communication, Annenberg School for Communication; Penn President Emerita</p>
             <span class="visit">Website →</span>
           </a>
           <a class="person-card" href="https://www.asc.upenn.edu/people/faculty/kathleen-hall-jamieson-phd" target="_blank" rel="noopener">
@@ -337,7 +352,7 @@
       </section>
 
       <section class="block">
-        <h2>Student Staff</h2>
+        <h2>Part Time Staff</h2>
         <div class="panel">
         <div class="grid">
           <div class="person-card">
@@ -354,6 +369,11 @@
             <img src="Photos/Gupta color.jpeg" alt="Arzoo Gupta">
             <h4>Arzoo Gupta</h4>
             <p class="role">Research Analyst</p>
+          </div>
+          <div class="person-card">
+            <div class="person-photo-placeholder">TK</div>
+            <h4>Tarun Kumanduri</h4>
+            <p class="role">AI Auditing Engineer</p>
           </div>
           <div class="person-card alumna">
             <img src="Photos/Feng color.jpeg" alt="Victoria Feng">
