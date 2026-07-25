@@ -115,6 +115,7 @@
     max-width: var(--max-width);
   }
   .person-card {
+    position: relative;
     background: #ffffff;
     border: 1px solid var(--border);
     border-top: 3px solid var(--navy-mid);
@@ -193,12 +194,14 @@
     text-transform: uppercase;
     color: var(--navy);
     text-decoration: none;
-    margin-top: 12px;
+    margin-top: auto;
+    padding-top: 12px;
   }
   .person-card a.visit:hover { color: var(--gold); }
   .person-card .tag {
-    display: inline-block;
-    margin-top: 8px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
     padding: 2px 10px;
     font-family: var(--font-sans);
     font-size: 0.68rem;
